@@ -1,0 +1,53 @@
+body{
+  background-image: linear-gradient(to right, rgba(19, 18, 18, 0.781), rgba(34, 32, 31, 0.678)), url('login.webp');
+  position: fixed;
+  background-size: cover;
+  /* display: flex; */
+}
+.login{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  
+  align-content: center;
+  justify-items: center;
+  /* background-color: rgba(0, 0, 0, 0.438); */
+  padding: 5vh;
+  border-radius: 10vh;
+  margin-top: 5vh;
+  margin-left: 78vh;
+}
+input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 30vh;
+  border-radius: 8vh;
+  padding-left: 10px;
+  
+}
+
+h1{
+  /* text-decoration: line-through; */
+  text-shadow:20px;
+  color: aliceblue;
+  font-size: 40px;
+  
+}
+h2{
+  font-size: 40px;
+  color: rgb(251, 251, 251);
+  margin-left: 90vh;
+  margin-top: 20vh;
+  text-decoration: underline;
+
+}
+#submit{
+  background-color: rgb(240, 209, 113);
+  width: 100px;
+}
+#submit:hover{
+  background-color: rgba(0, 0, 0, 0.411);
+  cursor: pointer;
+}

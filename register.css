@@ -1,0 +1,55 @@
+body{
+  background-image: linear-gradient(to right, rgba(19, 18, 18, 0.836), rgba(15, 14, 14, 0.866)), url('hangers.jpg');
+  position: fixed;
+  background-size: cover;
+  /* display: flex; */
+}
+.register{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  
+  align-content: center;
+  justify-items: center;
+  /* background-color: rgba(0, 0, 0, 0.438); */
+  padding: 5vh;
+  border-radius: 3vh;
+  /* margin-top: 5vh; */
+  margin-left: 15vh;
+  /* margin-right: 80vh; */
+  margin-top: 20vh;
+  background-color: rgba(244, 239, 239, 0.493);
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 30vh;
+  border-radius: 2vh;
+  padding-left: 10px;
+}
+input.placeholder{
+  margin-left: 2vh;
+}
+h1{
+  color: rgb(19, 19, 20);
+  
+}
+h2{
+  font-size: 25px;
+  color: rgb(25, 24, 24);
+  margin-left: 15px;
+  /* text-decoration: underline; */
+
+}
+
+#submit{
+  background-color:#e65a50;;
+  width: 100px;
+}
+#submit:hover{
+  background-color: rgba(0, 0, 0, 0.411);
+  cursor: pointer;
+}
